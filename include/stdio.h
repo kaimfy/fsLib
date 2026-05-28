@@ -1,8 +1,8 @@
 #ifndef MY_STDIO_H
 #define MY_STDIO_H
 
-#include <stdarg.h>
-#include <stddef.h>
+#include "stdarg.h"
+#include "stddef.h"
 
 int sprintf(char *str, const char *format, ...);
 int snprintf(char *str, size_t size, const char *format, ...);
